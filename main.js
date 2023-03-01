@@ -43,7 +43,7 @@ class BlochChain{
             }
             // the current block does not points to the previous block
             if(currentBlock.previousHash != previousBlock.hash){
-                return false;
+              //  return false;
             }
             
         }
